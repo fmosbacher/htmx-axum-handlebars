@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Axum + HTMX + Handlebars</title>
+    <link rel="shortcut icon" href="assets/favicon.svg" type="image/x-icon" />
+    <link rel="stylesheet" href="dist/tailwind.css" />
+  </head>
+  <body>
+    <button
+      type="button"
+      hx-get="/hello"
+      hx-swap="outerHTML"
+      class="bg-red-500 p-2 text-white"
+    >
+      Show number
+    </button>
+    <script src="assets/htmx.min.js"></script>
+  </body>
+</html>

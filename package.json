@@ -1,0 +1,14 @@
+{
+  "name": "axum-htmx-handlebars",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "author": "",
+  "scripts": {
+    "dev": "npx tailwindcss -i ./tailwind.css -o ./dist/tailwind.css --watch"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.3.3"
+  }
+}
